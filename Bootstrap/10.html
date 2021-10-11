@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt.br">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+
+   <h3>Grupos de Lista</h3>
+   <!-- Grupo de lista -->
+<div class="list-group" id="minhaLista" role="tablist">
+ <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">
+   Home</a>
+ <a class="list-group-item list-group-item-action" data-toggle="list" href="#perfil" role="tab">
+   Perfil</a>
+ <a class="list-group-item list-group-item-action" data-toggle="list" href="#mensagens" role="tab">
+   Mensagens</a>
+ <a class="list-group-item list-group-item-action" data-toggle="list" href="#configuracoes" role="tab">
+   Configurações</a>
+</div>
+<!-- Painel de abas -->
+<!-- <div class="tab-content">
+ <div class="tab-pane active" id="home" role="tabpanel">Mas</div>
+ <div class="tab-pane" id="perfil" role="tabpanel">O que</div>
+ <div class="tab-pane" id="mensagens" role="tabpanel">é</div>
+ <div class="tab-pane" id="configuracoes" role="tabpanel">isso?</div>
+</div> -->
+
+<!-- Trocar pro fade -->
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="home" role="tabpanel">Oi</div>
+    <div class="tab-pane fade" id="perfil" role="tabpanel">lindeza</div>
+    <div class="tab-pane fade" id="mensagens" role="tabpanel">Tudo</div>
+    <div class="tab-pane fade" id="configuracoes" role="tabpanel">bem?</div>
+  </div>
+
+<script>
+$('#minhaLista a[href="#perfil"]').tab('show') // Selecione pelo ID da tag
+$('#minhaLista a:first-child').tab('show') // Seleciona primeira aba
+$('#minhaLista a:last-child').tab('show') // Seleciona última aba
+$('#minhaLista a:nth-child(3)').tab('show') // Seleciona terceira aba
+</script>
+
+<!-- <div class="list-group" id="minhaLista" role="tablist">
+    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">
+      Home</a>
+    <a class="list-group-item list-group-item-action" data-toggle="list" href="#perfil" role="tab">
+      Perfil</a>
+    <a class="list-group-item list-group-item-action" data-toggle="list" href="#mensagens" role="tab">
+      Mensagens</a>
+    <a class="list-group-item list-group-item-action" data-toggle="list" href="#configuracoes" role="tab">
+      Configurações</a>
+  </div>
+  <div class="tab-content">
+    <div class="tab-pane active" id="home" role="tabpanel">ué</div>
+    <div class="tab-pane" id="perfil" role="tabpanel">de</div>
+    <div class="tab-pane" id="mensagens" role="tabpanel">novo</div>
+    <div class="tab-pane" id="configuracoes" role="tabpanel">isso?</div>
+  </div>
+  <script>
+    $(function () {
+      $('#minhaLista a:last-child').tab('show')
+    })
+  </script> -->
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
