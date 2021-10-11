@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.section {
+    display: flex;
+    flex-direction: row;
+}
+.diva {
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background-color: dodgerblue;
+    margin: 10px;}
+.div1, .div2,.div3 {
+    background-color: rgb(247, 154, 216);
+    margin: 30px;
+    text-align: center;
+}
+p {text-align: justify;}
+.diva img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-style: solid 1px gray;
+    border-radius: 100%;
+}
+.divb {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    width: 40%;
+    height: 250px;
+    background-color: dodgerblue;    
+}
+.divb img {
+    width: 100px;
+    height: 100px;
+    border-style: solid 1px gray;
+    margin: 5px;   
+}
+
+    </style>
+</head>
+<body>
+    <section class="section">
+    <div class="diva">
+        <div class="div1">
+            <img src="img/soul.png" alt="Soul_logo">
+            <h3>Heading level 1</h3>
+            <p>HTML Text</p>
+        </div>
+        <div class="div2">
+            <img src="img/soul.png" alt="Soul_logo">
+            <h2>Heading level 1</h2>
+            <p>HTML Text</p>
+        </div>
+        <div class="div3">
+            <img src="img/soul.png" alt="Soul_logo">
+            <h2>Heading level 1</h2>
+            <p>HTML Text</p>
+        </div>
+    </div>
+    <div class="divb">
+        <img src="img/soul.png" alt="Soul_logo">
+            <h2>Heading level 1</h2>
+            <p>HTML Text</p>
+    </div>
+    </section>
+    
+</body>
+</html>

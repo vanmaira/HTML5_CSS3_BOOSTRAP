@@ -1,0 +1,130 @@
+*{margin:0}
+
+header{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    }
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+}
+.corpo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/back.png);
+    background-size: cover;
+    color: rgb(230, 216, 216);
+    text-shadow: gray;
+}
+.parte1 {
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;   
+    }
+.parte1 .gif {
+    height: 150px;
+    width: 210px;
+    float: right;
+   
+    
+}
+h1, h2, h3, h4 {text-align: center;}
+a {text-decoration: none;
+    color: rgb(255, 247, 234);
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+    
+.menu {
+    width: 100%;
+    height: 8vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    text-shadow: 0.1em 0.1em 0.2em black
+
+}
+.menu :hover {background-color: rgb(20, 85, 95);
+             position: relative;}
+      
+.wrapper{
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid lightcyan;}
+.parte2 {
+   
+    height: 100vh;}
+.mec{
+    height: 30vh;
+    background-image: url("img/mec.jpg");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.termo{
+    height: 30vh;
+    background-image: url("img/termo.JPG");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.acus{
+    height: 30vh;
+    background-image: url("img/acust.jpg");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.opt{
+    height: 30vh;
+    background-image: url("img/opt.JPG");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.elet{
+    height: 30vh;
+    background-image: url("img/elet.JPG");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.moder{
+    height: 30vh;
+    background-image: url("img/mod.jpg");
+    background-size: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.parte3 {
+    height:80vh;
+    padding: 10px;   
+}
+.caixap3 { 
+        display: flex;
+        flex-wrap: wrap;
+        height: 10vh;
+        width: 15vh;
+        }
+
+
+footer {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+        }
+
+

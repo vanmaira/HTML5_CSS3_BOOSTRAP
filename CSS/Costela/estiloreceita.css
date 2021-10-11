@@ -1,0 +1,9 @@
+body{text-align: center;
+    /* background-color: rgb(238, 171, 26); */
+    background-image:linear-gradient(to top left, yellow, rgba(0, 128, 0, 0.319), brown);
+    }
+h1{text-decoration: underline;}
+ul li:nth-child(4) {
+  text-decoration: line-through ;}
+ul {list-style: none;}
+ol{text-align: left;}

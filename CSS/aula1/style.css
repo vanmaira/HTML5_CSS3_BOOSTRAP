@@ -1,0 +1,73 @@
+/*------------------------------------------INDEX------------------------------------------*/
+/* div {display:inline-table ;} */
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px;
+    box-shadow: inset 40px 40px 80px #f3951b;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    margin: 50px;
+    box-shadow: inset -40px -40px 60px 40px #383530;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px;
+    box-shadow: 10px -10px 10px #7f7f7f;
+}
+
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px;
+    box-shadow: /*horizontal*/ 10px /*vertical*/ 10px /*esmaecimento*/ 10px 10px #7f7f7f;
+}
+
+.div5{
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to top left,red,orange);
+    margin: 50px;
+    box-shadow: /*horizontal*/ 40px /*vertical*/ 50px /*esmaecimento*/80px  #95379b;
+}
+.div6{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 0, 157);
+    margin: 50px;
+    box-shadow: /*horizontal*/ 25px /*vertical*/ -30px /*esmaecimento*/ 10px 10px #ca22d0;
+}
+/*------------------------------------------GRADIENTE------------------------------------------*/
+div{
+    height: 80px;
+    margin-top: 10px;
+  }
+.gradiente1{
+    background-image: linear-gradient(to top, blue, cyan);
+}
+.gradiente2{
+    background-image: linear-gradient(to top right, blue, rgb(36,12,12));
+}  
+.gradiente3{
+    background-image: radial-gradient(magenta 20%, black 50%);
+}
+.gradiente4{
+    height: 200px;
+    background-image: repeating-radial-gradient(black 1%, white 25%);
+}
+.gradiente5{
+    height: 200px;
+    background-image: repeating-linear-gradient(90deg, green,white, red);
+}
+.gradiente6{
+    height: 200px;
+    background-image:linear-gradient(red,orange,yellow,green,blue,purple);
+}
