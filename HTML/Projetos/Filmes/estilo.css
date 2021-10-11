@@ -1,0 +1,125 @@
+.nav ul, .nav li {
+	margin: 0;
+	padding: 0;
+}
+.nav ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.nav li {
+	float: left;
+	position: relative;
+	width: 200px;
+	display: block;
+	align-items: center;
+}
+.nav a {
+	background: #281f4e;
+	color: #ffffff;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.nav li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #000000;
+}
+#submenu a {
+	background-color:#421d1d7;
+}
+
+body{
+    background-image: url(Imagens/back.png);
+    background-size: 100%;
+    background-repeat: round;
+	
+}
+.soulabel{
+    display: block; margin:0 auto;
+    padding: 1%;
+}
+h1, h2, h3, #dados, p, #table, #opcoes {
+    color: rgb(255, 255, 255); text-align: justify; font-family: Arial, Helvetica, sans-serif;
+}
+.lateral{
+    color: cornsilk;
+    float: left;
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ivory;
+    background: #1d1d42;
+    
+}
+.lateral{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 253);
+}
+a:link {
+    text-decoration: none;
+    color: ivory;
+   }
+a:hover {
+    text-decoration: underline;
+   }
+.busca{
+	display: block; margin: 0 auto;
+	width: 30%;
+}
+#table{
+	text-align: center;
+	border: 2px solid rgb(102, 74, 193);
+          letter-spacing: 1px;
+          font-size: 0.8rem;
+        }
+        td, th {
+          border: 2px solid rgb(32, 17, 115);
+          padding: 10px 20px;
+        }
+        td {
+          text-align: left;
+        }
+        caption {
+          padding: 10px;
+        }
+}
+.form{
+	background-color: rgb(160, 203, 240);
+	font-family: arial;
+}
+.button {
+	text-align: center;
+}
+.logo1{
+	width: 25px;
+	height: 25px;
+}

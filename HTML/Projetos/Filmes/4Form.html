@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />
+    <title>Cadastre-se</title>
+  </head>
+<body>
+<header>
+  <nav class="nav">
+    <li><a href="index.html">Home</a></li>  
+    <li><a href="2Categorias.html">Categorias</a>
+        <ul id="submenu">
+            <li><a href="2-1Feliz.html">Para rir e se emocionar <3</a></li>
+            <li><a href="2-2Emociona.html">Para se assustar e se empolgar<3</a></li>
+        </ul> 
+    </li>                               
+    <li><a href="3Musica.html">Trilhas Sonoras</a>
+         <ul  id="submenu">
+        <li><a href="3Musica.html#guarda">Para ouvir e se apaixonar</a></li>
+        <li><a href="3Musica.html#chefao">Para ouvir e se emocionar</a></li>
+        <li><a href="3Musica.html#foot">Pra dançar muito</a></li>
+        </ul> </li>
+    <li><a href="4Form.html">Cadastre-se!</a></li>
+              
+     </ul>
+    </li>
+</nav>
+   <img class="soulabel" src="imagens/soulabel.png" alt="soulabel" style="width: 70%;">
+   <h1>Preparamos uma lista de filmes todo mês para você se inspirar e se divertir!</h1>
+</header>
+<main>
+    <form class="form">
+        <h1 style="text-align: center;">Cadastre-se e receba as atualizações do site!</h1>
+<p>Os campos obrigatórios estão marcados com<strong><abbr title="required">*</abbr></strong>.</p>
+   
+<section>
+    <h2>Informações de Contato e Preferências</h2>
+    <fieldset id="opcoes">
+      <legend>Frequência de envio</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="R" >
+              Semanal
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="A">
+              Mensal
+            </label>
+          </li>
+          <li>
+            <label for="title_3">
+              <input type="radio" id="title_3" name="title" value="C">
+              Bimestral
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="nome">
+        <span>Nome: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="nome" name="username" size="50">
+    </p>
+    <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail" size="50" placeholder="exemplo@meumail.com">
+    </p>
+    <p>
+      <label for="preferencia">
+        <span>Categoria Preferida: </span>
+      </label>
+      <input type="text" id="pwd" name="preferencia" size="50"> 
+    </p>
+</section>
+<section>
+    <p class="button">
+      <button type="submit">Confirmar Cadastro</button>
+    </p>
+</section>
+    </form>
+</main>
+<footer>
+  <p class="foot">Quer saber mais sobre como aprendi a construir esse site?<br> 
+    Acesse SoulCode Academy: <a style="text-decoration: none;color: ivory;" href="https://soulcodeacademy.org/" target='_blank'> <img class="logo1" src="imagens/logo1.jpg"> </a>
+    <a style="text-decoration: none;color: ivory;" href="https://www.instagram.com/soulcodeacademy/?hl=pt" target='_blank'><img class="logo1" src="imagens/insta.png"></a> 
+    <br>Desenvolvido por: Vanessa Santos</p>
+      
+</footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela com Imagem</title>
+    <style>
+      html {
+        font-family: "Times New Roman";
+      }
+      table {
+        border: 2px solid red;
+      }
+      td,
+      th {
+        border: 2px solid rgb(194, 221, 217);
+        padding: 50px 50px;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col style="background-color: yellow" />
+        <col style="background-color: yellow" />
+      </colgroup>
+      <tr>
+        <th style="width: 200px">c1</th>
+        <th colspan="2">c2</th>
+      </tr>
+      <tr>
+        <td>c1</td>
+        <td style="background-color: rgb(253, 109, 133)">c2</td>
+        <td style="background-color: rgb(235, 129, 30)">c3</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><img src="Odie.png" width="100%" /></td>
+        <td>c2</td>
+        <td style="background-color: rgb(235, 50, 195); border: solid red">
+          c3
+        </td>
+      </tr>
+      <tr>
+        <td>c2</td>
+        <td style="background-color: rgb(235, 129, 30)">c3</td>
+      </tr>
+    </table>
+  </body>
+</html>

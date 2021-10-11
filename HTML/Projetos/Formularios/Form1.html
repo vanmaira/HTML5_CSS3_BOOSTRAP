@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        h1,h2 {
+            text-align: center;
+        }
+        form {
+            border: 2px solid rgb(115, 18, 18);
+            padding: 30px 30px;
+            background-color: rgb(202, 199, 199);
+        }
+        .button {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+    
+    <fieldset>
+        <legend><h2>Preencha seus dados</h2></legend>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" size="40"/>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" size="40" />
+        </div>
+        <br>
+        <div>
+            <label for="end">Endereço:</label>
+            <input type="text" id="end" size="60"/>
+        </div>
+        <br>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" size="62"/>
+        </div>
+        <br>
+        <div>
+            <label for="ddd">Telefone:</label>
+            <input type="text" id="ddd" size="4gegente"/> <label for="fone"></label>
+            <input type="text" id="fone" size="10"/>
+        </div>
+        <br>
+        <div>
+            <label for="user">Usuário:</label>
+            <input placeholder="Entre com seu login" type="text" id="user" size="21"/>
+        </div>
+       <br>
+       <div>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" size="23"/>
+    </div>
+        <br>
+        <div class="button">
+            <button type="submit"> <b>Finalizar minha inscrição</b></button>
+        </div> </p>
+    </form>
+    </fieldset>
+</body>
+</html>

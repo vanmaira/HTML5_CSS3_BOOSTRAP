@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        form{
+            background-color: rgb(160, 203, 240);
+            font-family: arial;
+        }
+        .button {
+            text-align: center;
+        }
+    </style>
+   </head>
+<body>
+    <form>
+        <h1 style="text-align: center;">Formulário de Pagamento</h1>
+<p>Os campos obrigatórios estão marcados com<strong><abbr title="required">*</abbr></strong>.</p>
+   
+<section>
+    <h2 style="text-align: center;">Informações de Contato</h2>
+    <fieldset>
+      <legend>Tratamento</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="R" >
+              Senhor
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="A">
+              Senhora
+            </label>
+          </li>
+          <li>
+            <label for="title_3">
+              <input type="radio" id="title_3" name="title" value="C">
+              Senhorita
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="nome">
+        <span>Nome: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="nome" name="username" size="50">
+    </p>
+    <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail" size="50" placeholder="exemplo@meumail.com">
+    </p>
+    <p>
+      <label for="senha">
+        <span>Senha: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="senha" id="pwd" name="senha" size="50"> 
+    </p>
+</section>
+
+<section>
+    <h2 style="text-align: center;">Informações de Pagamento</h2>
+    <p>
+      <label for="card">
+        <span>Bandeira do Cartão:</span>
+      </label>
+      <select id="card" name="usercard">
+        <option value="visa">Visa</option>
+        <option value="mc">Mastercard</option>
+        <option value="amex">American Express</option>
+      </select>
+    </p>
+    <p>
+      <label for="number">
+        <span>Número do Cartão:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="tel" id="number" name="cardnumber" size="16" placeholder="Somente números" pattern="^\d{4}-\d{4}-\d{4}-\d{4}$">
+    </p>
+    <p>
+      <label for="date">
+        <span>Validade do Cartão:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="date" id="date" name="expiration">
+    </p>
+</section>
+<section>
+    <p class="button">
+      <button type="submit">Validar o Pagamento</button>
+    </p>
+</section>
+    </form>
+</body>
+</html>
